@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	font-family: 'Oswald', 'sans-serif';
+}
+
+body {
+	background-image: url('archives/bgc.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*
+.overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Negro con 50% de opacidad 
+    z-index: 1; /* Asegura que el overlay esté encima 
+} 
+*/
+
+.tt	{
+	margin-top:10px;
+	text-align: center;
+	color: white;
+	position: relative;
+	z-index: 2;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Para que los cuadros se ajusten en diferentes pantallas */
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.product-card img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del cuadro */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px 10px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+.product-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #333;
+}
+
+.product-card button {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el ratón */
+}
